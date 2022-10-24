@@ -1,0 +1,16 @@
+TIVictoryCondition.description.GlobalControlPointProportion=我们派系的控制点必须至少是地球上所有控制点的 {0}。
+TIVictoryCondition.description.GlobalRegionProportion=我们的阵营必须掌控 {0} 个地球上的区域。若要掌控区域，须拥有该国的行政控制点和该国过半数的控制点。
+TIVictoryCondition.description.GlobalEcoProportion=我们的阵营必须掌控 {0} 个地球上的核心经济区域。若要掌控区域，须拥有该国的行政控制点和该国过半数的控制点。
+TIVictoryCondition.description.GlobalPopulationProportion=我们的阵营必须掌控拥有 {0} 个地球人口的区域。若要掌控区域，须拥有该国的行政控制点和该国过半数的控制点。
+TIVictoryCondition.description.AlienNationMaxRegionProportion_special=外星人不得控制地球上的区域。
+TIVictoryCondition.description.AlienNationMaxRegionProportion=外星人不得控制超过 {0} 个地球上的区域。
+TIVictoryCondition.description.AlienNationMinRegionProportion=外星人必须控制至少 {0} 个地球上的区域。
+TIVictoryCondition.description.AlienNationMaxPopulationProportion=外星人必须控制地球人口不超过 {0} 的区域。
+TIVictoryCondition.description.AlienNationMinPopulationProportion=外星人必须控制拥有至少 {0} 个地球人口的区域。
+TIVictoryCondition.description.ProAlienMaxRegionProportion=外星人和支持外星人的阵营不得控制超过 {0} 个地球区域。若要掌控区域，阵营须拥有区域国家的行政控制点和该国过半数的控制点。
+TIVictoryCondition.description.ProAlienMinRegionProportion=外星人和支持外星人的阵营必须控制至少 {0} 个地球区域。若要掌控区域，阵营须拥有该国的行政控制点和该国过半数的控制点。
+TIVictoryCondition.description.MinProAlienFleetPower=外星人和支持外星人的阵营加总的舰队力量，必须达到至少所有太阳系阵营舰队力量的 {0}。
+TIVictoryCondition.description.MaxProAlienFleetPower=外星人和支持外星人的阵营加总的舰队力量，不得超过所有太阳系阵营舰队力量的 {0}。
+TIVictoryCondition.description.MaxOtherFactionsFleetPower=所有敌人阵营加总的舰队力量不得超过所有太阳系阵营舰队力量的 {0}。
+TIVictoryCondition.Status=目前数值：{0}/{1} ({2})
+TIVictoryCondition.None=无其他条件

@@ -1,0 +1,9 @@
+<div class="item-list">
+{{range .Items}}
+      <div class="item">
+        <h3 class="tech-name">{{.Metadata.FriendlyName}}</h3>
+        <span class="tech-name-friendly">${{.Metadata.DataName}}</span>
+        <span class="tech-category">${{.Metadata.TechCategory}}</span>
+      </div>
+{{end}}
+</div>

@@ -1,0 +1,16 @@
+TIVictoryCondition.description.GlobalControlPointProportion=Die Kontrollpunktwerte unserer Fraktion müssen mindestens {0} aller Kontrollpunktwerte auf der Erde ausmachen.
+TIVictoryCondition.description.GlobalRegionProportion=Unsere Fraktion muss {0} aller Regionen auf der Erde kontrollieren. Eine Region gilt als unter unserer Kontrolle, wenn wir den Exekutivkontrollpunkt sowie mehr als die Hälfte aller Kontrollpunkte der Nation kontrollieren.
+TIVictoryCondition.description.GlobalEcoProportion=Unsere Fraktion muss {0} aller wichtigen Wirtschaftsregionen der Erde kontrollieren. Eine Region gilt als unter unserer Kontrolle, wenn wir den Exekutivkontrollpunkt sowie mehr als die Hälfte aller Kontrollpunkte der Nation kontrollieren.
+TIVictoryCondition.description.GlobalPopulationProportion=Unsere Fraktion muss Regionen mit {0} der Erdbevölkerung kontrollieren. Eine Region gilt als unter unserer Kontrolle, wenn wir den Exekutivkontrollpunkt sowie mehr als die Hälfte aller Kontrollpunkte der Nation kontrollieren.
+TIVictoryCondition.description.AlienNationMaxRegionProportion_special=Die Aliens dürfen keine Region auf der Erde kontrollieren.
+TIVictoryCondition.description.AlienNationMaxRegionProportion=Die Aliens dürfen nicht mehr als {0} aller Regionen auf der Erde kontrollieren.
+TIVictoryCondition.description.AlienNationMinRegionProportion=Die Aliens müssen mindestens {0} aller Regionen auf der Erde kontrollieren.
+TIVictoryCondition.description.AlienNationMaxPopulationProportion=Die Aliens dürfen nicht mehr als {0} der Erdbevölkerung kontrollieren.
+TIVictoryCondition.description.AlienNationMinPopulationProportion=Die Aliens müssen mindestens {0} der Erdbevölkerung kontrollieren.
+TIVictoryCondition.description.ProAlienMaxRegionProportion=Aliens und Pro-Alien-Fraktionen dürfen nicht mehr als {0} aller Regionen auf der Erde kontrollieren. Eine Fraktion kontrolliert eine Region, wenn sie den Exekutivkontrollpunkt sowie mehr als die Hälfte aller Kontrollpunkte der Nation kontrolliert.
+TIVictoryCondition.description.ProAlienMinRegionProportion=Aliens und Pro-Alien-Fraktionen müssen mindestens {0} aller Regionen auf der Erde kontrollieren. Eine Fraktion kontrolliert eine Region, wenn sie den Exekutivkontrollpunkt sowie mehr als die Hälfte aller Kontrollpunkte der Nation kontrolliert.
+TIVictoryCondition.description.MinProAlienFleetPower=Die gemeinsame Flottenstärke der Aliens und Pro-Alien-Fraktionen muss mindestens {0} der gesamten Flottenstärke aller Fraktionen im Sonnensystem entsprechen.
+TIVictoryCondition.description.MaxProAlienFleetPower=Die gemeinsame Flottenstärke der Aliens und Pro-Alien-Fraktionen darf nicht mehr als {0} der gesamten Flottenstärke aller Fraktionen im Sonnensystem entsprechen.
+TIVictoryCondition.description.MaxOtherFactionsFleetPower=Die kombinierte Flottenstärke aller feindlichen Fraktionen darf nicht mehr als {0} der gesamten Flottenstärke aller Fraktionen im Sonnensystem ausmachen.
+TIVictoryCondition.Status=Aktueller Wert: {0}/{1} ({2})
+TIVictoryCondition.None=Keine weiteren Bedingungen

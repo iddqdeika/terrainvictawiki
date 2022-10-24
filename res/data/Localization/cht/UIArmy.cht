@@ -1,0 +1,13 @@
+UI.Army.Header=軍隊
+UI.Army.Idle=閒置
+UI.Army.InBattle=戰鬥中
+UI.Army.Occupying=正在佔領地區 ({0})
+UI.Army.DeployDescription=正在移動至 {0} 地區，將於 {1} 後抵達
+UI.Army.AdviserBonus=+{0}
+UI.Army.MegafaunaHomeNation=狂暴的異變獸
+UI.Army.MegafaunaHomeNation1=馴養的巨獸
+UI.Army.OperationTarget=，目標：{0}
+UI.Army.CompletionDate=，完成：{0}
+UI.Army.AtSea=海上
+UI.Army.AdviserTooltip=理事建議這個國家能為軍隊的有效科技等級提供額外的 +{0}
+UI.Army.HabTooltip=若艙體位於陣營在近地軌道上的太空站，能為軍隊的有效科技等級提供額外的 +{0}

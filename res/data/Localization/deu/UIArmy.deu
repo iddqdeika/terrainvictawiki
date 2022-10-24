@@ -1,0 +1,13 @@
+UI.Army.Header=Armee
+UI.Army.Idle=Ungenutzt
+UI.Army.InBattle=Im Kampf
+UI.Army.Occupying=Besetzt Region ({0})
+UI.Army.DeployDescription=Unterwegs zu Region {0}, Ankunft in {1}
+UI.Army.AdviserBonus=+{0}
+UI.Army.MegafaunaHomeNation=Wilde Xenofauna
+UI.Army.MegafaunaHomeNation1=Domestizierte Megafauna
+UI.Army.OperationTarget=, Ziel: {0}
+UI.Army.CompletionDate=, Abschluss: {0}
+UI.Army.AtSea=Auf See
+UI.Army.AdviserTooltip=Berater dieser Nation verschaffen dem effektiven Technologie-Niveau dieser Armee einen Bonus von +{0}
+UI.Army.HabTooltip=Module in Fraktionsraumstationen im erdnahen Orbit verschaffen dem effektiven Technologie-Niveau dieser Armee einen Bonus von +{0}

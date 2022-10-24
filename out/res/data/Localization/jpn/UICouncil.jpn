@@ -1,0 +1,16 @@
+UI.Council.RecruitButton=採用
+UI.Council.CouncilNameCouncil={0}議会       
+UI.Council.ReservedForTurned=このスロットには、敵国から寝返った議員が表示されます。
+UI.Council.CouncilSize5=5人目の議員を採用するには、細胞組織プロジェクトを展開する必要があります。
+UI.Council.CouncilSize6=6人目の議員を採用するには、秘密作戦プロジェクトを展開する必要があります。
+UI.CouncilRecruiting.ConfirmRecruitDialog={0}を{1}で採用しますか？  
+UI.Council.RecruitingHeader=採用
+UI.CouncilView.UnknownObjective=不明な目的
+UI.CouncilView.UndefinedVictoryCondition=派閥内では未知
+UI.Council.LeaderFullName={0} {1}             
+UI.Council.Candidates=候補者
+UI.Council.RecruitCandidateButton=採用
+UI.Council.SellOrg=組織を売却
+UI.Council.PurchaseOrg=組織を購入
+UI.Council.EquipOrg=組織を装備
+UI.Council.UnequipOrg=組織を外す

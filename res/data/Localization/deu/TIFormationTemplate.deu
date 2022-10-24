@@ -1,0 +1,72 @@
+TIFormationTemplate.Spacing.Spread=Ausgebreitet
+TIFormationTemplate.Spacing.Loose=Locker
+TIFormationTemplate.Spacing.Tight=Eng
+
+TIFormationTemplate.displayName.Staggered=Versetzt
+TIFormationTemplate.displayName.Convoy=Geleitzug
+TIFormationTemplate.displayName.EchelonRight=Rechte Staffelung
+TIFormationTemplate.displayName.EchelonLeft=Linke Staffelung
+TIFormationTemplate.displayName.Chevron=Chevron
+TIFormationTemplate.displayName.TwoChevrons=Doppelchevron
+TIFormationTemplate.displayName.Arrow=Pfeilspitze
+TIFormationTemplate.displayName.Line=Linie
+TIFormationTemplate.displayName.TwoLines=Niedrige Mauer
+TIFormationTemplate.displayName.ThreeLines=Hohe Mauer
+TIFormationTemplate.displayName.Wall=Riesenmauer
+TIFormationTemplate.displayName.Column=Säule
+TIFormationTemplate.displayName.TwoColumn=Duo
+TIFormationTemplate.displayName.ThreeColumn=Trio
+TIFormationTemplate.displayName.FourColumn=Quartett
+TIFormationTemplate.displayName.FiveColumn=Quintett
+TIFormationTemplate.displayName.Cloud=Wolke
+TIFormationTemplate.displayName.BoxThree=Block
+
+TIFormationTemplate.Focus.Heavy=Schwergewichte
+TIFormationTemplate.Focus.Ranged=Schützen
+TIFormationTemplate.Focus.Armored=Abwehr
+TIFormationTemplate.Focus.Battle=Angriff
+TIFormationTemplate.Focus.Swift=Sprinter
+
+TIFormationTemplate.Concentration.Dispersed=Verteilt
+TIFormationTemplate.Concentration.Center=Mitte
+TIFormationTemplate.Concentration.Right=Rechts
+TIFormationTemplate.Concentration.Left=Links
+TIFormationTemplate.Concentration.Flanks=Flanken
+TIFormationTemplate.Concentration.Back=Rücken
+TIFormationTemplate.Concentration.Front=Vorwärts
+
+TIFormationTemplate.displayName={0}, {1}, {2}, {3}       
+TIFormationTemplate.description={0}<br/>{1} {2}
+
+TIFormationTemplate.Desc.Staggered=Versetzt
+TIFormationTemplate.Desc.Convoy=Geleitzug
+TIFormationTemplate.Desc.EchelonRight=Rechte Staffelung
+TIFormationTemplate.Desc.EchelonLeft=Linke Staffelung
+TIFormationTemplate.Desc.Chevron=Chevron
+TIFormationTemplate.Desc.TwoChevrons=Zwei Chevrons
+TIFormationTemplate.Desc.Arrow=Überkreuzte Chevrons
+TIFormationTemplate.Desc.Line=Einzelne Linie
+TIFormationTemplate.Desc.TwoLines=Zwei übereinanderliegende Linien
+TIFormationTemplate.Desc.ThreeLines=Drei übereinanderliegende Linien
+TIFormationTemplate.Desc.Wall=Fünf übereinanderliegende Linien
+TIFormationTemplate.Desc.Column=Einzelsäule
+TIFormationTemplate.Desc.TwoColumn=Doppelsäule
+TIFormationTemplate.Desc.ThreeColumn=Drei Säulen
+TIFormationTemplate.Desc.FourColumn=Vier Säulen
+TIFormationTemplate.Desc.FiveColumn=Fünf Säulen
+TIFormationTemplate.Desc.Cloud=Wolke
+TIFormationTemplate.Desc.BoxThree=3x3-Box 
+
+TIFormationTemplate.Focus.Desc.Heavy=Die größten Schiffe
+TIFormationTemplate.Focus.Desc.Ranged=Fernkampfschiffe
+TIFormationTemplate.Focus.Desc.Armored=Die Schiffe mit der besten Panzerung
+TIFormationTemplate.Focus.Desc.Battle=Die stärksten Schiffe
+TIFormationTemplate.Focus.Desc.Swift=Die schnellsten Schiffe
+
+TIFormationTemplate.Concentration.Desc.Dispersed=Verteilt
+TIFormationTemplate.Concentration.Desc.Center=in der Mitte
+TIFormationTemplate.Concentration.Desc.Right=auf der rechten Seite
+TIFormationTemplate.Concentration.Desc.Left=auf der linken Seite
+TIFormationTemplate.Concentration.Desc.Flanks=am weitesten von der Mitte weg
+TIFormationTemplate.Concentration.Desc.Back=im Hinterbereich
+TIFormationTemplate.Concentration.Desc.Front=im Vorderbereich

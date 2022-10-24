@@ -1,0 +1,15 @@
+UI.Markers.CouncilorMarker.Tooltip={0}{1}（{2}）</color>                
+UI.Markers.CouncilorMarker.TooltipWithMission={0}{1}（{2}）</color>：{3}（{4}）。          
+UI.Markers.CouncilorMarker.TooltipWithMissionResolveTime={0}{1}（{2}）</color>：{3}（{4}）。{5}を解決。 
+UI.Markers.Capital.TooltipHeader={0}コントロール・ポイント（{1}）    
+UI.Markers.Capital.ControlPoint=#{0}（{1}）：{2}
+UI.Markers.Uncontrolled=非管理状態
+UI.Markers.InvalidTarget=無効なターゲット
+UI.Markers.Occupation={0}：{1}占領状態
+UI.Markers.CoreEconomicRegion=中核経済地域<br/><br/>中核経済地域は国家経済のプライオリティにボーナスを付与します。
+UI.Markers.CoreResourceRegion=資源地域<br/><br/>中核経済地域は国家経済のプライオリティにボーナスを付与しますが、格差や環境破壊を悪化させます。
+UI.Markers.MonsterArmy=エイリアン大型生物{0}
+UI.Markers.NoFactionArmy={0}（{1}）{2}
+UI.Markers.FactionArmy={0}（{1}, {2}）{3}
+UI.Markers.Boost={0}<br/>{1}{2}／年
+UI.Markers.MissionControl={0}<br/>{1}{2}

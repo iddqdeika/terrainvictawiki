@@ -1,0 +1,16 @@
+UI.Council.RecruitButton=招募
+UI.Council.CouncilNameCouncil={0}理事会       
+UI.Council.ReservedForTurned=此栏位会显示从敌方拉拢的理事，现已为我方大业效力。
+UI.Council.CouncilSize5=要招募第五位理事，必须开发秘密细胞项目。
+UI.Council.CouncilSize6=要招募第六位理事，必须开发隐蔽行动项目。
+UI.CouncilRecruiting.ConfirmRecruitDialog=要花费 {1} 招募{0}吗？  
+UI.Council.RecruitingHeader=招募
+UI.CouncilView.UnknownObjective=未知目标
+UI.CouncilView.UndefinedVictoryCondition=阵营暂时未得知
+UI.Council.LeaderFullName={0} {1}             
+UI.Council.Candidates=候选人
+UI.Council.RecruitCandidateButton=招募
+UI.Council.SellOrg=贩卖组织 
+UI.Council.PurchaseOrg=买下组织
+UI.Council.EquipOrg=装备组织
+UI.Council.UnequipOrg=解除装备组织

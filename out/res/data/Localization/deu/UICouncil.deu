@@ -1,0 +1,16 @@
+UI.Council.RecruitButton=Rekrutieren
+UI.Council.CouncilNameCouncil={0}-Rat       
+UI.Council.ReservedForTurned=Auf diesem Slot wird ein feindliches Ratsmitglied angezeigt, das wir für unsere Sache gewinnen konnten.
+UI.Council.CouncilSize5=Wir müssen das Projekt „Geheimzellen“ entwickeln, um ein fünftes Ratsmitglied rekrutieren zu können.
+UI.Council.CouncilSize6=Wir müssen das Projekt „Geheimoperationen“ entwickeln, um ein sechstes Ratsmitglied rekrutieren zu können.
+UI.CouncilRecruiting.ConfirmRecruitDialog={0} für {1} rekrutieren?  
+UI.Council.RecruitingHeader=Rekrutierung
+UI.CouncilView.UnknownObjective=Unbekanntes Ziel
+UI.CouncilView.UndefinedVictoryCondition=Der Fraktion bisher nicht bekannt
+UI.Council.LeaderFullName={0} {1}             
+UI.Council.Candidates=Kandidaten
+UI.Council.RecruitCandidateButton=Rekrutieren
+UI.Council.SellOrg=Organisation verkaufen
+UI.Council.PurchaseOrg=Organisation kaufen
+UI.Council.EquipOrg=Organisation ausrüsten
+UI.Council.UnequipOrg=Organisation entfernen

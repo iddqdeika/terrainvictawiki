@@ -1,0 +1,12 @@
+TICouncilorTemplate.maleSubjectivePronoun=彼
+TICouncilorTemplate.femaleSubjectivePronoun=彼女
+TICouncilorTemplate.nonBinarySubjectivePronoun=彼ら
+TICouncilorTemplate.maleObjectivePronoun=彼
+TICouncilorTemplate.femaleObjectivePronoun=彼女
+TICouncilorTemplate.nonBinaryObjectivePronoun=彼ら
+TICouncilorTemplate.malePossessivePronoun=彼の
+TICouncilorTemplate.femalePossessivePronoun=彼女
+TICouncilorTemplate.nonBinaryPossessivePronoun=彼らの
+TICouncilorTemplate.age=年齢
+TICouncilorTemplate.alienName1=ゼノフォーム
+TICouncilorTemplate.alienName2=アルファ-{0}

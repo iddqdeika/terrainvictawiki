@@ -1,0 +1,15 @@
+TICouncilorVoiceTemplate.ENG=英文
+TICouncilorVoiceTemplate.AMER=美国人
+TICouncilorVoiceTemplate.ENGL=英国人
+TICouncilorVoiceTemplate.SCOT=苏格兰人
+TICouncilorVoiceTemplate.AUST=澳大利亚人
+TICouncilorVoiceTemplate.SAFR=南非人
+TICouncilorVoiceTemplate.IRSH=爱尔兰人
+TICouncilorVoiceTemplate.HING=印度人
+TICouncilorVoiceTemplate.CRIB=加勒比海人
+TICouncilorVoiceTemplate.LATN=伊比利亚人
+TICouncilorVoiceTemplate.RUSN=斯拉夫人
+TICouncilorVoiceTemplate.AFR=非洲人
+TICouncilorVoiceTemplate.SING=新加坡人
+TICouncilorVoiceTemplate.EURO=欧洲人
+TICouncilorVoiceTemplate.ARBC=阿拉伯人

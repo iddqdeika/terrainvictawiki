@@ -1,0 +1,13 @@
+UI.Army.Header=軍
+UI.Army.Idle=待機中
+UI.Army.InBattle=戦闘中
+UI.Army.Occupying=占領地域（{0}）
+UI.Army.DeployDescription={0}地域に移動、{1}到着
+UI.Army.AdviserBonus=+{0}
+UI.Army.MegafaunaHomeNation=暴走ゼノファウナ
+UI.Army.MegafaunaHomeNation1=家畜化された大型生物
+UI.Army.OperationTarget=、ターゲット：{0}
+UI.Army.CompletionDate=、完了：{0}
+UI.Army.AtSea=海上
+UI.Army.AdviserTooltip=この国に助言する評議員は、この軍の有効技術レベルに＋{0}のボーナスを与えている。
+UI.Army.HabTooltip=地球低軌道の派閥スペースステーションにあるモジュールは、この軍の有効技術レベルに＋{0}のボーナスを与えている。
