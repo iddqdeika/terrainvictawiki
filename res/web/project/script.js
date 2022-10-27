@@ -1,27 +1,27 @@
 
 // array of techs got from api
-let allTechList;
+let listData;
 
 update()
 
 function update(){
-    httpGetAsync(getTechUrl(), updateTechList);
+    httpGetAsync(getAllUrl(), updateList);
 }
 
-function getTechUrl() {
-    return "/rest/tech/all";
+function getAllUrl() {
+    return "/rest/project/all";
 }
 
-function updateTechList(response)
+function updateList(response)
 {
     // parse
     const list = JSON.parse(response);
-    allTechList = list;
+    listData = list;
     // find root for list
     let listElem = findListElem();
     // fill list
-    allTechList.forEach(function (tech) {
-        listElem.appendChild(createTechItem(tech))
+    listData.forEach(function (item) {
+        listElem.appendChild(createTechItem(item))
     })
 }
 
@@ -30,23 +30,23 @@ function findListElem()
     return document.getElementsByClassName("item-list")[0];
 }
 
-function templateTechItemInnerHTML(techItem) {
+function templateTechItemInnerHTML(item) {
     return `
             <a class="item-href" href="">
                 <span class="item-title">
-                    ${techItem.Metadata.FriendlyName}
+                    ${item.Metadata.FriendlyName}
                 </span>
                 
             </a>
             <div class="item-content">
                 <dl>
-                    <dt>cost:</dt><dd>${techItem.Metadata.ResearchCost}</dd> 
-                    <dt>category:</dt><dd>${techItem.Metadata.TechCategory}</dd>
-                    <dt>prerequisites:</dt><dd>${techItem.Metadata.Prereqs}</dd>
+                    <dt>cost:</dt><dd>${item.Metadata.ResearchCost}</dd> 
+                    <dt>category:</dt><dd>${item.Metadata.TechCategory}</dd>
+                    <dt>prerequisites:</dt><dd>${item.Metadata.Prereqs}</dd>
                 </dl>
             </div>
             <div class="item-description">
-                ${techItem.Locale.Description}
+                ${item.Locale.Description}
             </div>
     `;
 }

@@ -1,4 +1,4 @@
-package tech
+package project
 
 func NewObject(data *Metadata) *Object {
 	return &Object{
