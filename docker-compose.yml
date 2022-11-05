@@ -1,0 +1,13 @@
+version: '3'  # version of compose format
+
+services:
+  api:
+    build: .  # path is relative to docker-compose.yml localtion
+    ports:
+      - 8080:8080  # host:container
+  front:
+    build: ./front  # path is relative to docker-compose.yml localtion
+    ports:
+      - 80:80  # host:container
+    depends_on:
+      - api
