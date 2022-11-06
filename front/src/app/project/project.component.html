@@ -13,6 +13,7 @@
                 </span>
 
       </a>
+      <div>{{item.Locale.Summary}}</div>
       <div class="item-content">
         <dl>
           <dt>cost:</dt><dd>{{item.Metadata.ResearchCost}}</dd>
@@ -24,6 +25,8 @@
               <a *ngIf='req != "" && !req.startsWith("Project_")' [routerLink]='"/tech"' [fragment]="req">{{req}}</a>
             </div>
           </dd>
+          <dt>required objectives:</dt><dd>{{item.Metadata.RequiredObjectiveNames}}</dd>
+          <dt>effects:</dt><dd>{{item.Metadata.Effects}}</dd>
         </dl>
       </div>
       <div class="item-description">
