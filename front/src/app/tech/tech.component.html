@@ -1,6 +1,29 @@
 <p>tech works!</p>
 <div class="content">
+
+  <div class="search-bar">
+    Search: <input name="Search" (input)="processSearchInput($event)">
+  </div>
+
   <div class="item-list">
+    <div class="item" *ngFor="let techItem of actualTechList">
+      <a class="item-href" href="" id="{{techItem.Metadata.DataName}}">
+                <span class="item-title">
+                    {{techItem.Metadata.FriendlyName}}
+                </span>
+
+      </a>
+      <div class="item-content">
+        <dl>
+          <dt>cost:</dt><dd>{{techItem.Metadata.ResearchCost}}</dd>
+          <dt>category:</dt><dd>{{techItem.Metadata.TechCategory}}</dd>
+          <dt>prerequisites:</dt><dd><div *ngFor="let req of techItem.Metadata.Prereqs"><a *ngIf='req != ""' [routerLink]='"."' [fragment]="req">{{req}}</a></div></dd>
+        </dl>
+      </div>
+      <div class="item-description">
+        {{techItem.Locale.Description}}
+      </div>
+    </div>
 
   </div>
 </div>

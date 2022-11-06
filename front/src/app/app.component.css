@@ -1,0 +1,19 @@
+
+.title {
+  display: block;
+  text-decoration: none;
+  font-size: 0.4in;
+  color: var(--big-text-color);
+}
+
+.header {
+  position: fixed;
+  z-index: 10;
+  overflow:hidden;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: var(--content-width);
+  background-color: var(--background-default-color);
+  top: 0;
+  height: 50px;
+}

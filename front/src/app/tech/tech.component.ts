@@ -1,4 +1,5 @@
 import {Component, OnInit, ViewEncapsulation} from '@angular/core';
+import {ActivatedRoute, Router} from "@angular/router";
 
 @Component({
   selector: 'app-tech',
@@ -7,71 +8,63 @@ import {Component, OnInit, ViewEncapsulation} from '@angular/core';
   styleUrls: ['./tech.component.css']
 })
 export class TechComponent implements OnInit {
+  // array of techs got from api
+  allTechList: any[];
+  actualTechList: any[];
 
-  constructor() { }
-
-  ngOnInit(): void {
-    update()
+  constructor(private router: Router, private r:ActivatedRoute) {
+    this.allTechList = [];
+    this.actualTechList = [];
   }
 
-}
+  ngOnInit(): void {
+    this.updateSync();
+    setTimeout(this.goToCurrentFragment.bind(this), 0);
+  }
 
+  goToCurrentFragment()
+  {
+    const fragment = this.router.parseUrl(this.router.url).fragment;
+    if (!fragment){
+      return;
+    }
+    this.router.navigate(['.'], {fragment: fragment, relativeTo: this.r, skipLocationChange: true})
+  }
 
-// array of techs got from api
-let allTechList;
+  processSearchInput(event: any)
+  {
+    this.filterList(event.target.value);
+  }
 
-function update(){
-  httpGetAsync(getTechUrl(), updateTechList);
-}
+  updateAsync(){
+    httpGetAsync(this.getTechUrl(), this.updateTechList.bind(this));
+  }
 
-function getTechUrl() {
-  return "/rest/tech/all";
-}
+  updateSync(){
+    this.updateTechList(httpGetSync(this.getTechUrl()))
+  }
 
-function updateTechList(response: any)
-{
-  // parse
-  const list = JSON.parse(response);
-  allTechList = list;
-  // find root for list
-  let listElem = findListElem();
-  // fill list
-  allTechList.forEach(function (tech: any) {
-    listElem.appendChild(createTechItem(tech))
-  })
-}
+  getTechUrl() {
+    return "/rest/tech/all";
+  }
 
-function findListElem()
-{
-  return document.getElementsByClassName("item-list")[0];
-}
+  updateTechList(response: any)
+  {
+    // parse
+    const list = JSON.parse(response);
+    this.allTechList = list;
+    this.filterList("");
+  }
 
-function templateTechItemInnerHTML(techItem: any) {
-  return `
-            <a class="item-href" href="">
-                <span class="item-title">
-                    ${techItem.Metadata.FriendlyName}
-                </span>
-
-            </a>
-            <div class="item-content">
-                <dl>
-                    <dt>cost:</dt><dd>${techItem.Metadata.ResearchCost}</dd>
-                    <dt>category:</dt><dd>${techItem.Metadata.TechCategory}</dd>
-                    <dt>prerequisites:</dt><dd>${techItem.Metadata.Prereqs}</dd>
-                </dl>
-            </div>
-            <div class="item-description">
-                ${techItem.Locale.Description}
-            </div>
-    `;
-}
-
-function createTechItem(techItem: any){
-  let res = document.createElement('div')
-  res.innerHTML = templateTechItemInnerHTML(techItem)
-  res.classList.add('item')
-  return res
+  filterList(name: string)
+  {
+    console.log("search for " + name.toLowerCase());
+    this.actualTechList = this.allTechList.filter(
+      (v, i, arr) => {
+        return name == "" || v.Metadata.FriendlyName.toLowerCase().includes(name.toLowerCase())
+      }
+    );
+  }
 }
 
 function httpGetAsync(theUrl: any, callback: any)
@@ -83,4 +76,12 @@ function httpGetAsync(theUrl: any, callback: any)
   }
   xmlHttp.open("GET", theUrl, true); // true for asynchronous
   xmlHttp.send(null);
+}
+
+function httpGetSync(theUrl: any)
+{
+  var xmlHttp = new XMLHttpRequest();
+  xmlHttp.open("GET", theUrl, false); // true for asynchronous
+  xmlHttp.send(null);
+  return xmlHttp.responseText;
 }
